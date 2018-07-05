@@ -1,0 +1,14 @@
+__pycache__/
+*/__pycache__/
+*.pyc
+*.egg-info
+build/
+dist/
+.pybuild/
+debian/debhelper-build-stamp
+debian/files
+debian/python-adpi/
+debian/python3-adpi/
+debian/python-adpi.*
+debian/python3-adpi.*
+debian/tmp/
