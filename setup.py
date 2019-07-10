@@ -28,7 +28,7 @@ setup(
     ],
     install_requires=[
         'spidev',
-        'smbus-cffi',
+        'smbus',
     ],
     include_package_data=True,
     zip_safe=False,
