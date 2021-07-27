@@ -1,3 +1,20 @@
+python-adpi (1.0.2) bullseye; urgency=medium
+
+  * debian
+    - Deleted python-adpi.install
+  * debian/compat: Deleted
+  * debian/control
+    - Deleted Build-Depends python(>=2.7), python-smbus, pythonj-spidev, python-setuptools
+    - Deleted Package python-adpi
+    - Change Build-Depends to debhelper-compat from debhelper
+    - Bump Standards-Version to 4.5.1
+  * debian/rules
+    - Deleted options to build python-adpi
+  * setup.py
+    - Fix version string
+
+ -- Yuta Kiyonaga <kiyonaga@mechatrax.com>  Tue, 20 Jul 2021 08:16:43 +0000
+
 python-adpi (1.0.1) buster; urgency=medium
 
   * setup.py: Update install_requires

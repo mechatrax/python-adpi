@@ -1,29 +1,17 @@
 Source: python-adpi
-Maintainer: Masahiro Honda <honda@mechatrax.com>
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Section: python
 Priority: optional
-Build-Depends: python (>= 2.7),
-               python3 (>= 3.7),
-               python-smbus,
+Build-Depends: python3 (>= 3.7),
                python3-smbus,
-               python-spidev,
                python3-spidev,
-               python-setuptools,
                python3-setuptools,
                dh-python,
-               debhelper (>= 12)
-Standards-Version: 4.3.0
+               debhelper-compat (= 12)
+Standards-Version: 4.5.1
 Vcs-Git: https://github.com/mechatrax/python-adpi.git
 Vcs-browser: https://github.com/mechatrax/python-adpi
-Homepage: https://www.mechatrax.com/
-
-Package: python-adpi
-Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}, python-spidev, python-smbus
-Description: Python module for ADPi family.
- This package contains python module to control ADPi family.
- .
- This package installs the library for Python 2.
+Homepage: https://mechatrax.com/
 
 Package: python3-adpi
 Architecture: all
