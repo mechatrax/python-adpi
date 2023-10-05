@@ -5,8 +5,14 @@ __pycache__/
 build/
 dist/
 .pybuild/
+
 debian/debhelper-build-stamp
 debian/files
+debian/*.log
+debian/*.debhelper
+debian/*.substvars
+
+debian/.debhelper/*
 debian/python-adpi/
 debian/python3-adpi/
 debian/python-adpi.*
