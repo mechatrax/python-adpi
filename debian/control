@@ -1,5 +1,6 @@
 Source: python-adpi
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Uploaders: Masahiro Honda <honda@mechatrax.com>
 Section: python
 Priority: optional
 Build-Depends: python3 (>= 3.7),
